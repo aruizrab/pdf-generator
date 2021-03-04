@@ -1,0 +1,33 @@
+metadata:
+  title: "Sample PDF"
+  subtitle: "This doc shows you around"
+  authors:
+    - "John Doe"
+    - "Joanne Doe"
+  date-format: "%A %d of %B, %Y"
+sections:
+  - header: "First level header"
+    text:
+      - >-
+        Paragraph one
+      - >-
+        Paragraph two
+    sections:
+      - header: "Second level header"
+        text:
+          - >-
+            Paragraph one
+          - >-
+            Paragraph two
+      - header: "Another second level header"
+        text:
+          - >-
+            Paragraph one
+          - >-
+            Paragraph two
+  - header: "Another level header"
+    text:
+      - >-
+        Paragraph one
+      - >-
+        Paragraph two
